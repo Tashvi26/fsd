@@ -1,0 +1,26 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: burlywood;
+
+
+}
+.grid-items{
+    border: 2px solid saddlebrown;
+   
+    background-color: aquamarine;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

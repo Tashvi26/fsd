@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 20% 50%;
+
+}
+.grid_items{
+    border: 3px solid paleturquoise;
+    
+}
+.navbar,
+.image,
+.footer,
+.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
